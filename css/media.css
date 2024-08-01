@@ -71,6 +71,28 @@
         font-weight: 400;
     }
     /* course end */
+    /* testimoni start */
+    .t_img {
+        padding: 0 60px 20px;
+    }
+    .t_text {
+        text-align: center;
+    }
+    .t_item {
+        margin-top: 30px;
+    }
+    /* footer top start */
+    .footer_top {
+        padding: 55px 0 20px;
+        text-align: center;
+    }
+    .ft_details {
+        margin-bottom: 35px;
+        padding-right: 0;
+    }
+    .ft_links{
+        margin-bottom: 35px;
+    }
     
 }
 /*  small devices (portrait phone, 576px and up) */
@@ -147,6 +169,26 @@
         font-weight: 400;
     }
     /* course end */
+
+    /* testimoni start */
+    .t_img {
+        padding: 0 120px 20px;
+    }
+    .t_text {
+        text-align: center;
+    }
+    .t_item {
+        margin-top: 30px;
+    }
+
+    /* footer top start */
+    .footer_top {
+        text-align: center;
+    }
+    .ft_details {
+        margin-bottom: 35px;
+        padding: 0 40px;
+    }
 }
 /*  medium devices (tablets, 768px and up) */
 @media(min-width:  768px) and (max-width: 991.98px){
@@ -182,6 +224,20 @@
     /* course start */
     .c_course {
         margin: 40px 100px 0;
+    }
+
+    /* testimoni start */
+    .t_item {
+        margin-top: 40px;
+    }
+
+    /* footer top start */
+    .footer_top {
+        text-align: center;
+    }
+    .ft_details {
+        margin-bottom: 35px;
+        padding: 0 80px;
     }
 }
 /* Large devices (desktops, 992px and up) */
